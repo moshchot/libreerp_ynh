@@ -10,6 +10,7 @@ name = "Manage custom code"
         ask = "Use oca sources?"
         type = "boolean"
         help = "When you change this, you need to force upgrade your app"
+        visible = "false"
 
         [custom_code.components.gitaggregate]
         ask = "Run gitaggregate"
