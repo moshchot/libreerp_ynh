@@ -1,0 +1,17 @@
+version = "1.0"
+
+[custom_code]
+name = "Manage custom code"
+
+    [custom_code.components]
+    name = "Actions"
+
+        [custom_code.components.oca]
+        ask = "Use oca sources?"
+        type = "boolean"
+        help = "When you change this, you need to force upgrade your app"
+
+        [custom_code.components.gitaggregate]
+        ask = "Run gitaggregate"
+        type = "button"
+        help = "This assumes you have clone a repository in custom-addons that contains a repos.yml file"
