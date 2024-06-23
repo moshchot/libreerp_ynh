@@ -31,7 +31,7 @@ LibreERP is forked from Odoo Community Edition. The name is change due to Odoo t
 **Versión actual:** 16.0~ynh3
 
 **Demo:** <https://www.odoo.com/trial>
-## :red_circle: funcionalidades no deseadas
+## :red_circle: Características no deseables
 
 - **Paid content**: Promotes or depends, entirely or partially, on a paid service.
 
