@@ -42,7 +42,7 @@ ram.runtime = "200M"
     ask.en = "Choose the version you want"
     ask.fr = "Choisissez la version désirée"
     type = "select"
-    choices = ["7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18"]
+    choices = ["8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18"]
     default = "16"
 
     [install.lang]
@@ -121,11 +121,6 @@ ram.runtime = "200M"
     [resources.sources.main_8_oca]
     url = "https://github.com/OCA/OCB/archive/279529c088d28b8ad58da3314a829b0b9421dff0.tar.gz"
     sha256 = "f4e5bda61d27d401da368cdcb46d6a86878cf4804f04f04400a2a2b61803861c"
-    prefetch = false
-
-    [resources.sources.main_7_oca]
-    url = "https://github.com/OCA/OCB/archive/5520178a97f5677b121575fb14ff860eed674e7e.tar.gz"
-    sha256 = "3462e0d7239e923c06ebcea01fee8b3a81a7636dd7fbb343c5ee21f75b715595"
     prefetch = false
 
     [resources.system_user]
