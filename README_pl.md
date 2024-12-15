@@ -30,7 +30,7 @@ Next version are under LGPL-3.0
 LibreERP is forked from Odoo Community Edition. The name is change due to Odoo trademark policy.
 
 
-**Dostarczona wersja:** 16.0~ynh3
+**Dostarczona wersja:** 16.0~ynh4
 
 **Demo:** <https://www.odoo.com/trial>
 ## :red_circle: Niepożądane funkcje
