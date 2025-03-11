@@ -98,7 +98,7 @@ else:
     self.env['ir.module.module'].upgrade_changed_checksum()
 ODOODOC
   } ||\
-  sudo -u $app $VENV/bin/python $final_path/libreerp/odoo-bin --no-http -d $app -c /etc/$app/main.conf --logfile /proc/self/fd/1 -u all --stop-after-init
+  sudo -u $app $VENV/bin/python $install_dir/libreerp/odoo-bin --no-http -d $app -c /etc/$app/main.conf --logfile /proc/self/fd/1 -u all --stop-after-init
   sudo systemctl restart $app
 }
 
